@@ -23,12 +23,12 @@ const InfoModules = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
       {/* Academic Schedule */}
-      <Card className="shadow-elegant">
+      <Card className="bg-gradient-card backdrop-blur-sm shadow-card border-primary/20 hover:shadow-elegant transition-all duration-300">
         <CardHeader className="bg-gradient-subtle">
           <CardTitle className="flex items-center gap-2">
-            <Calendar className="h-5 w-5 text-primary" />
+            <Calendar className="h-6 w-6 text-primary" />
             Academic Schedule
           </CardTitle>
           <CardDescription>Important dates and deadlines</CardDescription>
@@ -54,10 +54,10 @@ const InfoModules = () => {
       </Card>
 
       {/* Facility Hours */}
-      <Card className="shadow-elegant">
+      <Card className="bg-gradient-card backdrop-blur-sm shadow-card border-secondary/20 hover:shadow-elegant transition-all duration-300">
         <CardHeader className="bg-gradient-subtle">
           <CardTitle className="flex items-center gap-2">
-            <Clock className="h-5 w-5 text-primary" />
+            <Clock className="h-6 w-6 text-secondary" />
             Facility Hours
           </CardTitle>
           <CardDescription>Operating hours for campus facilities</CardDescription>
@@ -78,10 +78,10 @@ const InfoModules = () => {
       </Card>
 
       {/* Campus Events */}
-      <Card className="shadow-elegant">
+      <Card className="bg-gradient-card backdrop-blur-sm shadow-card border-accent/20 hover:shadow-elegant transition-all duration-300">
         <CardHeader className="bg-gradient-subtle">
           <CardTitle className="flex items-center gap-2">
-            <Users className="h-5 w-5 text-primary" />
+            <Users className="h-6 w-6 text-accent" />
             Upcoming Events
           </CardTitle>
           <CardDescription>Don't miss these campus activities</CardDescription>

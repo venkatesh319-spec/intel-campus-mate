@@ -61,11 +61,14 @@ export default {
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
+        'gradient-hero': 'var(--gradient-hero)',
         'gradient-subtle': 'var(--gradient-subtle)',
+        'gradient-card': 'var(--gradient-card)',
       },
       boxShadow: {
         'elegant': 'var(--shadow-elegant)',
         'chat': 'var(--shadow-chat)',
+        'card': 'var(--shadow-card)',
       },
       transitionTimingFunction: {
         'smooth': 'var(--transition-smooth)',
